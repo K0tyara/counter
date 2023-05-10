@@ -1,0 +1,29 @@
+{
+    "name": "kotyara/counter",
+    "description": "This test package from laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kotyara\\Counter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "K0tyara",
+            "email": "burka.maksim@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kotyara\\counter\\src\\CounterProvider"
+            ],
+            "aliases": {
+                "counter" : "Kotyara\\counter\\src\\Counter"
+            }
+        }
+    },
+    "require": {
+
+    }
+}
