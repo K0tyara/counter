@@ -14,7 +14,7 @@ class CounterProvider extends ServiceProvider
     public function register() : void
     {
         $this->app->singleton(CounterService::class, function ($app) {
-            return new CounterService(2);
+            return new CounterService(rand(1,100));
         });
     }
 }
