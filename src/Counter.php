@@ -1,6 +1,6 @@
 <?php
 
-namespace Kotyara\Counter\src;
+namespace Kotyara\Counter;
 
 use Illuminate\Support\Facades\Facade;
 
