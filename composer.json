@@ -19,7 +19,7 @@
                 "Kotyara\\Counter\\CounterProvider"
             ],
             "aliases": {
-                "counter" : "Kotyara\\Counter\\Counter"
+                "Counter" : "Kotyara\\Counter\\Counter"
             }
         }
     },
