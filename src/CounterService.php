@@ -6,7 +6,7 @@ class CounterService
 {
     protected string $title = 'This counter value -> ';
 
-    protected int $value;
+    protected int $value = 0;
 
     public function __construct(int $value)
     {
