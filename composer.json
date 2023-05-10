@@ -16,10 +16,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kotyara\\counter\\src\\CounterProvider"
+                "Kotyara\\counter\\CounterProvider"
             ],
             "aliases": {
-                "counter" : "Kotyara\\counter\\src\\Counter"
+                "counter" : "Kotyara\\counter\\Counter"
             }
         }
     },
