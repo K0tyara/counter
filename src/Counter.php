@@ -8,6 +8,6 @@ class Counter extends Facade
 {
     public static function getFacadeAccessor()
     {
-        return 'counter';
+        return CounterService::class;
     }
 }
